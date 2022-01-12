@@ -87,8 +87,8 @@ class _QuizPageState extends State<QuizPage> {
         Expanded(
           child: Padding(
             padding: EdgeInsets.all(15.0),
-            child: FlatButton(
-              color: Colors.green,
+            child: TextButton(
+              // color: Colors.green,
               child: Text(
                 'True',
                 style: TextStyle(fontSize: 20.0, color: Colors.white),
@@ -102,8 +102,8 @@ class _QuizPageState extends State<QuizPage> {
         Expanded(
           child: Padding(
             padding: EdgeInsets.all(15.0),
-            child: FlatButton(
-              color: Colors.red,
+            child: TextButton(
+              //color: Colors.red,
               child: Text(
                 'False',
                 style: TextStyle(fontSize: 20.0, color: Colors.white),
